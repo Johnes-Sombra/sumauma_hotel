@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sumaúma</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icontudo.png">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/9867340d8e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <a href="#"><img class="icon-site" src="img/logo_site2.png" alt="Hotel TI"></a>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="reservas.html">Reserva</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </nav>
+    </header>
+    <section class="formu">
+        <form method="POST">
+            <div class="nome-completo">
+                <label for="nome">Seu Nome:</label>
+                <input type="texto" id="nome" name="nome_usuario">
+            </div>
+            <br>
+            <div>
+                <label for="email">Seu E-mail:</label>
+                <input type="email" id="email" name="email_usuario">
+            </div>
+            <br>
+            <div class="botao">
+                Quantas pessoas ?
+                <br>
+                <label for="Quantidade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 pessoa</label>
+                <input type="radio" id="Numero" name="pessoas" value="1 pessoa">
+                <br>
+                <label for="Quantidade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 pessoas</label>
+                <input type="radio" id="Numero" name="pessoas" value="2 pessoa">
+                <br>
+                <label for="Quantidade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 pessoas</label>
+                <input type="radio" id="Numero" name="pessoas" value="3 pessoa">
+                <br>
+                <label for="Quantidade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 pessoas</label>
+                <input type="radio" id="Numero" name="pessoas" value="4 pessoa">
+                <br>
+                <label for="Quantidade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 pessoas</label>
+                <input type="radio" id="Numero" name="pessoas" value="5 pessoa">
+        
+              
+            </div>
+        <br>
+            <div>
+                <label for="Texto">Check-in:</label>
+                <input type="date" id="Data" name="Data">
+            </div>
+            <br>
+            <div>
+                <label for="Texto">Check-out:</label>
+                <input type="date" id="Data" name="Data">
+            </div>
+            <br>
+            <div>
+                <label for="Texto">Pedidos Especias:</label>
+                <textarea id="pedidos" name="pedidos"> </textarea>
+            </div>
+        <br>
+            <p> Dados do contratante</p>
+        <br>
+            <div>
+                <label for="Texto">Idade:</label>
+                <input type="text" id="idade" name="idade">
+            </div>
+        <br>
+            <div>
+                <label for="Texto">CPF:</label>
+                <input type="text" id="cpf" name="cpf">
+            </div>
+        <br>
+            <div>
+                <label for="Texto">Seu Endereço:</label>
+                <input type="text" id="endereço" name="endereço"> 
+            </div>
+        <br>
+            <div>
+                <label for="Texto">Numero de contato (DDD):</label>
+                <input type="text" id="contato" name="contato"> 
+            </div>
+        <br>    
+            <div>
+                <label for="Texto">Diga-nos o que achou do nosso método de Formulário:</label>
+                <textarea id="opiniao" name="opiniao"> </textarea>
+            </div>
+        <br>    
+            <div class="botao">
+                <br>
+                Dê-nos uma nota
+                <br>
+                <label for="Quantidade"> ⭐ </label>
+                <input type="radio" id="Numero" name="pessoas" value="1 estrela">
+                <br>
+                <label for="Quantidade">⭐⭐</label>
+                <input type="radio" id="Numero" name="pessoas" value="2  estrela">
+                <br>
+                <label for="Quantidade">⭐⭐⭐</label>
+                <input type="radio" id="Numero" name="pessoas" value="3  estrela">
+                <br>
+                <label for="Quantidade">⭐⭐⭐⭐</label>
+                <input type="radio" id="Numero" name="pessoas" value="4  estrela">
+                <br>
+                <label for="Quantidade">⭐⭐⭐⭐⭐</label>
+                <input type="radio" id="Numero" name="pessoas" value="5  estrela">
+                <br>
+              
+            </div>
+    
+          <div class="button">
+                <button type="submit">Enviar</button>
+              </div>
+        </form>
+</body>
+</html>
